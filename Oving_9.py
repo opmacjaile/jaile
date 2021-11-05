@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov  5 09:03:27 2021
-
-@author: Jaile
-"""
-
-
-
 class Quiz:
     def __init__(self, questions, answer, alternatives):
         self.questions = questions
@@ -101,4 +92,3 @@ if __name__ == "__main__":
         print(f"score board:\n {player1}: {player1_score} \n {player2}: {player2_score}")
         
         print("\n")
-        
